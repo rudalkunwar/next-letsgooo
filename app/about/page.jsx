@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function page() {
   return (
-    <div>
-        this is about page
+    <div className="h-screen flex justify-center items-center">
+      <h1 className="text-6xl"> This is about page</h1>
     </div>
-  )
+  );
 }
 
-export default page
+export default page;
